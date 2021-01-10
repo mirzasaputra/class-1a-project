@@ -3403,7 +3403,13 @@ h6 {
 @keyframes blink {
   to {
     opacity: .3;
-} from {
-    opacity: 1;
+  } from {
+      opacity: 1;
+  }
 }
+
+@media(max-width: 768px){
+  .nav-item .nav-link {
+    color: #444!important;
+  }
 }
