@@ -3403,7 +3403,7 @@ h6 {
 @keyframes blink {
   to {
     opacity: .3;
-  } from {
+} from {
     opacity: 1;
-  }
+}
 }
